@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!-- Título de página -->
+        <title>Primos Fast Food</title>
+        <meta title="Primos Fast Food">
+
+        <!-- Codificación de caracteres > Caracteres especiales en Español -->
+        <meta charset="utf-8">
+        
+        <!-- Cargar ícono de favoritos -->
+        <link rel="icon" href="img/favicon.png">
+
+        <!-- Meta para bloquear el Zoom Out -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Enlace a librería desde CDN: PrefixFree -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+        <!-- Enlace a librería de íconos: FontAwesome Icons -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+        <!-- Enlace a librería de fuentes tipográficas: Google Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Permanent+Marker&family=Roboto:wght@100;300;400;500;700;900&family=Kufam:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+        <!-- Cargar CSS propio -->
+        <link rel="stylesheet" href="css/estilo.css">
+    </head>
+
+    <body>
+        <!-- Componente Menú Hamburguesa -->
+        <aside id="menu-hamburguesa">
+            <a href="#" id="abrir">
+                <i class="fas fa-bars"></i>
+            </a>
+
+            <a href="#" id="cerrar">
+                <i class="fas fa-times"></i>
+            </a>
+
+            <nav>
+                <a href="#capa-contenido">Inicio</a>
+                <a href="https://luimmedina.github.io/Parcial-Primos-Fast-Food/">Precios</a>
+                <a href="#galeria-imagenes">Imagenes</a>
+                <a href="#formulario-contactenos">Tu chance</a>
+            </nav>
+        </aside>
+
+        <!-- Componente Botón WhatsApp -->
+        <aside id="boton-whatsapp">
+            <a href="https://api.whatsapp.com/message/O746DFE7BBACC1" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </aside>
+
+        <!-- Componente Header Logo y Menú -->
+        <header>
+            <article>
+                <figure>
+                    <a href="index.html">
+                        <img src="img/loguito.JPG">
+                    </a>
+                </figure>
+
+                <nav>
+                    <a href="#capa-contenido">Inicio</a>
+                    <a href=" https://luimmedina.github.io/Parcial-Primos-Fast-Food/">Menu</a>
+                    <a href="#galeria-imagenes">Imagenes</a>
+                    <a href="#formulario-contactenos">Log in</a>
+                </nav>
+            </article>
+        </header>
+
+        <!-- Caja Main -->
+        <main>
+            <!--  Banner Video HTML5 Loop Muted Autoplay -->
+           <section id="banner-video-loop-muted">
+            <div id="capa-contenido"></div>
+            <h1></h1>
+              <div id="capa-color-video"></div>
+            <video width="100%" height="700" preload="auto" controls="no" loop muted autoplay>
+            <source src="multimedia/Food Film  Cinematic Burger.mp4" type="video/mp4">
+            </video>
+             </section>
+
+             <!-- Galeria de FancyApps -->
+             <section id="galeria-imagenes">
+                <article>
+                    <h5>Imagenes de referencia</h5>
+                  <nav>
+                      <!-- En la etiqueta a se llama a la imagen grande -->
+                     <a href="img/salchi-salvaje.JPG" data-fancybox="galeria">
+                           <!-- En la etiqueta img se llama a al imagen pequeña -->
+                        <img src="img/salchi-salvaje.JPG">
+                     </a>
+
+                     <a href="img/alitas.JPG" data-fancybox="galeria">
+                        <img src="img/alitas.JPG">
+                     </a>
+
+                     <a href="img/cheese-burger.JPG" data-fancybox="galeria">
+                       <img src="img/cheese-burger.JPG">
+                     </a>
+
+                     <a href="img/grill-1.JPG" data-fancybox="galeria">
+                         <img src="img/grill-1.JPG">
+                     </a>
+
+                     <a href="img/grill-2.JPG" data-fancybox="galeria">
+                       <img src="img/grill-2.JPG">
+                     </a>
+
+                     <a href="img/grill-3.JPG" data-fancybox="galeria">                     
+                      <img src="img/grill-3.JPG">
+                     </a>
+
+                     <a href="img/la-babosa.JPG" data-fancybox="galeria">                        
+                        <img src="img/la-babosa.JPG">
+                     </a>
+
+                     <a href="img/pizza.JPG" data-fancybox="galeria">                       
+                      <img src="img/pizza.JPG">
+                     </a>
+
+                   </nav>
+                </article>
+            </section>
+
+            <!-- Mapa de Google Maps -->
+            <section id="mapa-googlemaps">
+                <div id="capa-mapa-google-maps"></div>
+                <h5>Ubicación del lugar</h5>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.9570356045365!2d-74.8024276855042!3d10.966615658653796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42d489b3672e9%3A0x9e2c5debfe8ce84e!2sFast%20Food%20Company!5e0!3m2!1ses!2sco!4v1619616840116!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </section>
+
+
+            <!-- Formulario de Contactenos -->
+            <section id="formulario-contactenos">
+                <article>
+                      <h5>Quieres hacer parte de nosotros? Ahora tienes tu chance!</h5>
+                      <form id="formu-cont" action="" method="get">
+                         <input type="text" id="nombre" placeholder="Nombre Completo">
+                         <input type="email" id="correo" placeholder="Correo electronico">
+                         <input type="tel" id="telefono" placeholder="Telefono">
+                         <textarea rows="3" id="mensaje" placeholder="Mensaje de candidatura"></textarea>
+                         <input type="submit" id="enviar" value="Enviar">
+                      </form>
+                </article>
+            </section>
+            
+        </main>
+
+        <!-- Componente Footer Logo al Centro -->
+        <footer>
+            <figure>
+                <a href="index.html">
+                    <img src="img/loguito.JPG" alt="">
+                </a>
+            </figure>
+        </footer>
+
+        <!-- Zona de JavaScript -->
+
+        <!-- 1°: LLamado a jQuery desde un CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        
+        <!-- 2°: Llamado a librerías hijo de jQuery -->
+        <!-- jQuery Easing desde CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+        <!-- Llamado a la Libreria de FancyApps -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+        <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+        <!-- Cargar JS propio -->
+        <script src="js/script.js"></script>
+    </body>
+</html>
